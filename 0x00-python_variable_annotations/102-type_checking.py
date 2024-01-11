@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """apply any necessary changes"""
-from typing import List, Tuple, Any
+from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
