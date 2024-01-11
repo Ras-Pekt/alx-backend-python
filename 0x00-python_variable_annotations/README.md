@@ -8,3 +8,4 @@
 - [6-sum_mixed_list.py](6-sum_mixed_list.py) - a type-annotated function sum_mixed_list which takes a list mxd_lst of integers and floats and returns their sum as a float
 - [7-to_kv.py](7-to_kv.py) - a type-annotated function to_kv that takes a string k and an int OR float v as arguments and returns a tuple
 - [8-make_multiplier.py](8-make_multiplier.py) -  a type-annotated function make_multiplier that takes a float multiplier as argument and returns a function that multiplies a float by multiplier
+- [9-element_length.py](9-element_length.py) - annotate a given function’s parameters and return values with the appropriate types
