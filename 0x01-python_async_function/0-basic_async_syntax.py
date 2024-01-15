@@ -6,10 +6,9 @@ and eventually returns it
 """
 import asyncio
 import random
-from typing import List
 
 
-async def wait_random(max_delay: int = 10) -> List[float]:
+async def wait_random(max_delay: int = 10) -> float:
     """
     takes in an integer argument
     waits for a random delay
