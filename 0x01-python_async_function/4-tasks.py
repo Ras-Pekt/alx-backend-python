@@ -12,10 +12,13 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
     """
     calls task_wait_random function
     """
-    # tasks = [asyncio.create_task(task_wait_random(max_delay)) for _ in range(n)]
-    # delays_lists = [await delay for delay in asyncio.as_completed(tasks)]
 
-    # return delays_lists
+    """
+    task = [asyncio.create_task(task_wait_random(max_delay)) for _ in range(n)]
+    delays_lists = [await delay for delay in asyncio.as_completed(task)]
+
+    return delays_lists
+    """
 
     tasks = [await task_wait_random(max_delay) for _ in range(n)]
     return sorted(tasks)
