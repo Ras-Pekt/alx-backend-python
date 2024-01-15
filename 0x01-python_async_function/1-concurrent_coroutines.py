@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""an async routine called wait_n
+"""
+an async routine called wait_n
 that takes in 2 int arguments: n and max_delay,
 spawns wait_random n times with the specified max_delay,
 and returns the list of all the delays in ascending order
