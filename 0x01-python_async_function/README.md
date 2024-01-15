@@ -1,0 +1,2 @@
+# 0x01. Python - Async
+- [0-basic_async_syntax.py](0-basic_async_syntax.py) - takes in an integer argument, max_delay, waits for a random delay between 0 and max_delay seconds and eventually returns it
